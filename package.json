@@ -1,0 +1,16 @@
+{
+  "name": "nextcal",
+  "version": "0.0.1",
+  "description": "Simple, but modern fast calculator app with electron",
+  "main": "boostrap.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --exec electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anoxtovo",
+  "license": "MIT",
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
